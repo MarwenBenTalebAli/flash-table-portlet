@@ -1,0 +1,64 @@
+#portlet_flashtable_WAR_flashtableportlet .portlet-title .icon {
+  display: none; }
+#portlet_flashtable_WAR_flashtableportlet .filters {
+  margin: 0;
+  display: block;
+  width: 94%; }
+#portlet_flashtable_WAR_flashtableportlet .filters li {
+  display: inline-block; }
+#portlet_flashtable_WAR_flashtableportlet .filters select {
+  padding: 4px;
+  text-transform: capitalize;
+  max-width: 100%;
+  width: 100%;
+  display: block; }
+#portlet_flashtable_WAR_flashtableportlet .filters input {
+  padding-left: 4px;
+  padding-right: 4px;
+  width: 200px; }
+#portlet_flashtable_WAR_flashtableportlet .search #_flashtable_WAR_flashtableportlet_submit {
+  background: url("../images/search.png") center no-repeat;
+  width: 30px;
+  background-size: contain;
+  border: none;
+  outline: none !important; }
+#portlet_flashtable_WAR_flashtableportlet .li-search {
+  position: relative;
+  padding-right: 32px;
+  padding-left: 5px; }
+#portlet_flashtable_WAR_flashtableportlet .li-search .search {
+  position: absolute;
+  left: 220px;
+  top: 2px; }
+#portlet_flashtable_WAR_flashtableportlet .txt-capitalize {
+  text-transform: capitalize; }
+#portlet_flashtable_WAR_flashtableportlet .width-10 {
+  width: 10%;
+  padding-left: 5px;
+  padding-right: 0; }
+#portlet_flashtable_WAR_flashtableportlet .width-12 {
+  width: 12%;
+  padding-left: 5px;
+  padding-right: 0; }
+#portlet_flashtable_WAR_flashtableportlet .width-25 {
+  width: 25%;
+  padding-left: 5px;
+  padding-right: 0; }
+#portlet_flashtable_WAR_flashtableportlet #flash-table .results-header th, #portlet_flashtable_WAR_flashtableportlet #flash-table .results-header td {
+  padding: 5px; }
+#portlet_flashtable_WAR_flashtableportlet #flash-table td img {
+  max-width: 95%; }
+
+@media screen and (min-width: 1600px) {
+  #portlet_flashtable_WAR_flashtableportlet .width-10 {
+    width: 100px; }
+
+  #portlet_flashtable_WAR_flashtableportlet .width-12 {
+    width: 200px; } }
+@media screen and (max-width: 700px) {
+  #portlet_flashtable_WAR_flashtableportlet .filters input {
+    width: 150px; }
+
+  #portlet_flashtable_WAR_flashtableportlet .li-search .search {
+    left: 170px; } }
+
